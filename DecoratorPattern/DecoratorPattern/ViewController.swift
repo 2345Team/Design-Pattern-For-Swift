@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         print(normalCellPhone.sendMessage())
         
         
+        
         let decoratorGPS = DecoratorGPS()
         decoratorGPS.setComponents(normalCellPhone)
         print(decoratorGPS.callNumber())

@@ -14,4 +14,5 @@ class TextPaperB:TextPaper {
     override func answer2() -> String {
         return "C"
     }
+    
 }
