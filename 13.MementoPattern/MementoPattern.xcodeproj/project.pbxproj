@@ -12,6 +12,9 @@
 		334829441CE1A86800DAC2B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334829421CE1A86800DAC2B3 /* Main.storyboard */; };
 		334829461CE1A86800DAC2B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334829451CE1A86800DAC2B3 /* Assets.xcassets */; };
 		334829491CE1A86800DAC2B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334829471CE1A86800DAC2B3 /* LaunchScreen.storyboard */; };
+		33FE72CD1CEAEC3C003D3233 /* GameRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE72CC1CEAEC3C003D3233 /* GameRoll.swift */; };
+		33FE72CF1CEAEC56003D3233 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE72CE1CEAEC56003D3233 /* GameState.swift */; };
+		33FE72D11CEAEC9D003D3233 /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FE72D01CEAEC9D003D3233 /* StateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		334829451CE1A86800DAC2B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		334829481CE1A86800DAC2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3348294A1CE1A86800DAC2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33FE72CC1CEAEC3C003D3233 /* GameRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRoll.swift; sourceTree = "<group>"; };
+		33FE72CE1CEAEC56003D3233 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		33FE72D01CEAEC9D003D3233 /* StateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 		334829501CE1A88600DAC2B3 /* Memento */ = {
 			isa = PBXGroup;
 			children = (
+				33FE72CC1CEAEC3C003D3233 /* GameRoll.swift */,
+				33FE72CE1CEAEC56003D3233 /* GameState.swift */,
+				33FE72D01CEAEC9D003D3233 /* StateManager.swift */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
@@ -144,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				334829411CE1A86800DAC2B3 /* ViewController.swift in Sources */,
+				33FE72CF1CEAEC56003D3233 /* GameState.swift in Sources */,
+				33FE72CD1CEAEC3C003D3233 /* GameRoll.swift in Sources */,
+				33FE72D11CEAEC9D003D3233 /* StateManager.swift in Sources */,
 				3348293F1CE1A86800DAC2B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +306,7 @@
 				3348294F1CE1A86800DAC2B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
