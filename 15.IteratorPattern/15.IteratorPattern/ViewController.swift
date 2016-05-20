@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         for titleStr in titleArray {
             print(titleStr)
         }
+        let enumerator:NSEnumerator = titleArray.objectEnumerator()
+        while let string=enumerator.nextObject() {
+            print(string)
+        }
         
         let  concreteSet = ConcreteSet()
         concreteSet.insertItem("apple")
