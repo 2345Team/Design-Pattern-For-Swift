@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1A43271CEDC566007D10F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A43261CEDC566007D10F2 /* AppDelegate.swift */; };
+		3D1A43291CEDC566007D10F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A43281CEDC566007D10F2 /* ViewController.swift */; };
+		3D1A432C1CEDC566007D10F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A432A1CEDC566007D10F2 /* Main.storyboard */; };
+		3D1A432E1CEDC566007D10F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A432D1CEDC566007D10F2 /* Assets.xcassets */; };
+		3D1A43311CEDC566007D10F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A432F1CEDC566007D10F2 /* LaunchScreen.storyboard */; };
+		3D1A433A1CEDC5C0007D10F2 /* Software.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A43391CEDC5C0007D10F2 /* Software.swift */; };
+		3D1A433C1CEDC646007D10F2 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A433B1CEDC646007D10F2 /* Phone.swift */; };
+		3D20777B1CEE9B120066C2E3 /* NokiaPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20777A1CEE9B120066C2E3 /* NokiaPhone.swift */; };
+		3D20777D1CEE9C4A0066C2E3 /* SonyPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20777C1CEE9C4A0066C2E3 /* SonyPhone.swift */; };
+		3D20777F1CEE9CE10066C2E3 /* GameSoftware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D20777E1CEE9CE10066C2E3 /* GameSoftware.swift */; };
+		3D2077811CEEB3540066C2E3 /* AddressListSofeware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2077801CEEB3540066C2E3 /* AddressListSofeware.swift */; };
+		3D287C331CF28D0C00BEC23D /* GameNokiaSoftware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D287C321CF28D0C00BEC23D /* GameNokiaSoftware.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D1A43231CEDC566007D10F2 /* BridgePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1A43261CEDC566007D10F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D1A43281CEDC566007D10F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D1A432B1CEDC566007D10F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D1A432D1CEDC566007D10F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1A43301CEDC566007D10F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D1A43321CEDC566007D10F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1A43391CEDC5C0007D10F2 /* Software.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Software.swift; sourceTree = "<group>"; };
+		3D1A433B1CEDC646007D10F2 /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		3D20777A1CEE9B120066C2E3 /* NokiaPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NokiaPhone.swift; sourceTree = "<group>"; };
+		3D20777C1CEE9C4A0066C2E3 /* SonyPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SonyPhone.swift; sourceTree = "<group>"; };
+		3D20777E1CEE9CE10066C2E3 /* GameSoftware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSoftware.swift; sourceTree = "<group>"; };
+		3D2077801CEEB3540066C2E3 /* AddressListSofeware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressListSofeware.swift; sourceTree = "<group>"; };
+		3D287C321CF28D0C00BEC23D /* GameNokiaSoftware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameNokiaSoftware.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1A43201CEDC566007D10F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1A431A1CEDC566007D10F2 = {
+			isa = PBXGroup;
+			children = (
+				3D1A43251CEDC566007D10F2 /* BridgePattern */,
+				3D1A43241CEDC566007D10F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1A43241CEDC566007D10F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1A43231CEDC566007D10F2 /* BridgePattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1A43251CEDC566007D10F2 /* BridgePattern */ = {
+			isa = PBXGroup;
+			children = (
+				3D1A43381CEDC57D007D10F2 /* BridgePattern */,
+				3D1A43261CEDC566007D10F2 /* AppDelegate.swift */,
+				3D1A43281CEDC566007D10F2 /* ViewController.swift */,
+				3D1A432A1CEDC566007D10F2 /* Main.storyboard */,
+				3D1A432D1CEDC566007D10F2 /* Assets.xcassets */,
+				3D1A432F1CEDC566007D10F2 /* LaunchScreen.storyboard */,
+				3D1A43321CEDC566007D10F2 /* Info.plist */,
+			);
+			path = BridgePattern;
+			sourceTree = "<group>";
+		};
+		3D1A43381CEDC57D007D10F2 /* BridgePattern */ = {
+			isa = PBXGroup;
+			children = (
+				3D1A433B1CEDC646007D10F2 /* Phone.swift */,
+				3D20777A1CEE9B120066C2E3 /* NokiaPhone.swift */,
+				3D20777C1CEE9C4A0066C2E3 /* SonyPhone.swift */,
+				3D1A43391CEDC5C0007D10F2 /* Software.swift */,
+				3D20777E1CEE9CE10066C2E3 /* GameSoftware.swift */,
+				3D2077801CEEB3540066C2E3 /* AddressListSofeware.swift */,
+				3D287C321CF28D0C00BEC23D /* GameNokiaSoftware.swift */,
+			);
+			path = BridgePattern;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1A43221CEDC566007D10F2 /* BridgePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1A43351CEDC566007D10F2 /* Build configuration list for PBXNativeTarget "BridgePattern" */;
+			buildPhases = (
+				3D1A431F1CEDC566007D10F2 /* Sources */,
+				3D1A43201CEDC566007D10F2 /* Frameworks */,
+				3D1A43211CEDC566007D10F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgePattern;
+			productName = BridgePattern;
+			productReference = 3D1A43231CEDC566007D10F2 /* BridgePattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1A431B1CEDC566007D10F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陈大威";
+				TargetAttributes = {
+					3D1A43221CEDC566007D10F2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D1A431E1CEDC566007D10F2 /* Build configuration list for PBXProject "BridgePattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D1A431A1CEDC566007D10F2;
+			productRefGroup = 3D1A43241CEDC566007D10F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1A43221CEDC566007D10F2 /* BridgePattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1A43211CEDC566007D10F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1A43311CEDC566007D10F2 /* LaunchScreen.storyboard in Resources */,
+				3D1A432E1CEDC566007D10F2 /* Assets.xcassets in Resources */,
+				3D1A432C1CEDC566007D10F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1A431F1CEDC566007D10F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D20777B1CEE9B120066C2E3 /* NokiaPhone.swift in Sources */,
+				3D1A433C1CEDC646007D10F2 /* Phone.swift in Sources */,
+				3D287C331CF28D0C00BEC23D /* GameNokiaSoftware.swift in Sources */,
+				3D2077811CEEB3540066C2E3 /* AddressListSofeware.swift in Sources */,
+				3D1A433A1CEDC5C0007D10F2 /* Software.swift in Sources */,
+				3D1A43291CEDC566007D10F2 /* ViewController.swift in Sources */,
+				3D20777F1CEE9CE10066C2E3 /* GameSoftware.swift in Sources */,
+				3D1A43271CEDC566007D10F2 /* AppDelegate.swift in Sources */,
+				3D20777D1CEE9C4A0066C2E3 /* SonyPhone.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D1A432A1CEDC566007D10F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1A432B1CEDC566007D10F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D1A432F1CEDC566007D10F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1A43301CEDC566007D10F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D1A43331CEDC566007D10F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D1A43341CEDC566007D10F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1A43361CEDC566007D10F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BridgePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.william.BridgePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D1A43371CEDC566007D10F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BridgePattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.william.BridgePattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1A431E1CEDC566007D10F2 /* Build configuration list for PBXProject "BridgePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1A43331CEDC566007D10F2 /* Debug */,
+				3D1A43341CEDC566007D10F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1A43351CEDC566007D10F2 /* Build configuration list for PBXNativeTarget "BridgePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1A43361CEDC566007D10F2 /* Debug */,
+				3D1A43371CEDC566007D10F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D1A431B1CEDC566007D10F2 /* Project object */;
+}
