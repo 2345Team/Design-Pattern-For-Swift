@@ -20,7 +20,7 @@ class Waiter: NSObject {
     }
     
     func notifyOrder() {
-        for order in orderList {
+        for order in orderList  {
             let orderObject: Order = order as! Order
             orderObject.executeOrder()
         }
