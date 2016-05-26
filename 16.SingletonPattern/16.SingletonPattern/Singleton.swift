@@ -34,4 +34,6 @@ class Singleton: NSObject {
     class var sharedInstance2 : Singleton {
         return _SingletonSharedInstance
     }
+    
+    class let sharedInstance3 = Singleton()
 }
